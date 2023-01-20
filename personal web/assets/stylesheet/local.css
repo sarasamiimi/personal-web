@@ -1,0 +1,91 @@
+@media screen and (max-width:576px){
+     
+    .fig{
+        order: -1;
+    }
+main{
+    overflow-x: hidden;
+}
+
+}
+/* end sm mobile */
+
+@media screen and (min-width:577px){
+    .fig{
+        order: -1;
+    }
+
+    main{
+        overflow-x: hidden;
+    }
+
+
+}
+/* end big mobile */
+
+@media screen and (min-width:768px){.fig{
+    order: 2;
+}
+main{
+    overflow-x: hidden;
+}
+    
+}
+/* end tablet */
+
+@media screen and (min-width:992px){
+   
+    .fig{
+        order: 2;
+    }
+    
+
+}
+/* end desktop */
+
+@media screen and (min-width:1200px){
+    .fig{
+        order:2;
+    }
+    
+}
+/* end big desktop */
+
+@media screen and (min-width:1400px){
+    .fig{
+        order: 2;
+    }
+}
+/* end xxl */
+
+*{
+    scroll-behavior: smooth;
+}
+
+ html,body{
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.main{
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+body{
+    overflow-x: hidden !important;
+}
+
+.sec{
+    width: 100%;
+    object-fit: ;
+  justify-content: center;
+}  

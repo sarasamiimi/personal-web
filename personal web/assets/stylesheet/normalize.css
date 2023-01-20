@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          
+}
+
+body {
+  font-size: 100%;
+  
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=normalize.css.map */
